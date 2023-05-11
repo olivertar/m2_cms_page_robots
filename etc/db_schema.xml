@@ -1,0 +1,6 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="cms_page">
+        <column name="robots" nullable="true" xsi:type="varchar" comment="Robots value for a specific page"
+                length="255"/>
+    </table>
+</schema>
